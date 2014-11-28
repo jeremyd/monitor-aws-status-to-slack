@@ -17,7 +17,7 @@ Amazon Linux AMI release 2014.09
 
 Install some library.
 ```
-# yum -y install perl-ExtUtils-Manifest perl-ExtUtils-MakeMaker perl-CPAN-Meta perl-Module-Build  perl-XML-LibXML gcc openssl-devel git
+# yum -y install perl-ExtUtils-Manifest perl-ExtUtils-MakeMaker perl-CPAN-Meta perl-Module-Build perl-XML-Parser perl-XML-LibXML gcc openssl-devel git
 ```
 
 Git clone.
