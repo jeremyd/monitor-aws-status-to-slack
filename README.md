@@ -37,9 +37,14 @@ Set Slack Incoming Webhook URL.
 our $slack_url = 'https://hooks.slack.com/services/your/webhook/url';
 ```
 
+Slack post test.  
+```
+# perl monitor-aws-status-to-slack.pl -d
+```
+
 Run script.  
 ```
-# perl monitor-aws-status-to-slack.pl
+# perl monitor-aws-status-to-slack.pl &
 ```
 
 # ORIGIN
